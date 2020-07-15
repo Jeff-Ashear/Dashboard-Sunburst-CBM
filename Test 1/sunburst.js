@@ -1,15 +1,16 @@
-import data from './flare.js';
+import data from './flare2.js';
 console.log("imported data: ", data);
 
 let color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
 let format = d3.format(",d");
-let width = 932
+// let width = 932
+let width = 450
 let radius = width / 6
 let arc = d3.arc()
     .startAngle(d => d.x0)
     .endAngle(d => d.x1)
     .padAngle(d => Math.min((d.x1 - d.x0) / 2, 0.005))
-    .padRadius(radius *1.5)
+    .padRadius(radius *1.2)
     .innerRadius(d => d.y0*radius)
     .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1));
 
