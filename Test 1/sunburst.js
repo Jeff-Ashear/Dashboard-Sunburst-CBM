@@ -1,4 +1,4 @@
-import data from './flare2.js';
+import data from './flare3.js';
 console.log("imported data: ", data);
 
 let color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));

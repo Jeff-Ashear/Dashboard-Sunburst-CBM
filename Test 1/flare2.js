@@ -83,7 +83,7 @@ const data = {
         },
 
         {
-            "name": "SEO",
+            "name": "Social Media",
             "children": [
                 {"name": "Completed", "value": 6180},
                 //     {

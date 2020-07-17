@@ -4,9 +4,8 @@ const data = {
         {
             "name": "Website",
             "children": [
-                {"name": "Completed", "value": 15918},
-                    {
-                    "children": [
+                {"name": "Completed", "value": 15918,
+                "children": [
                     {"name": "DB Structure", "value": 3938},
                     {"name": "Backend Architecture", "value": 3812},
                     {"name": "Front End Destinations", "value": 2518}                 
@@ -84,7 +83,7 @@ const data = {
         },
 
         {
-            "name": "SEO",
+            "name": "Social Media",
             "children": [
                 {"name": "Completed", "value": 6180},
                 //     {
